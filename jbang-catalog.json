@@ -1,0 +1,14 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "h2console": {
+      "script-ref": "h2@jbanghub/h2",
+      "arguments": [
+        "-url",
+        "jdbc:h2:file:./library"
+      ],
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
