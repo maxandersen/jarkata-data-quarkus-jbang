@@ -39,10 +39,6 @@ import picocli.CommandLine;
 
 @CommandLine.Command
 public class Main implements Runnable {
-
-
-    @Inject
-    StatelessSession session;
     
     @Inject Library library;
 
